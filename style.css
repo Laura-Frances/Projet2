@@ -31,30 +31,29 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
-/*Partie header et recherches*/
+
+/* PARTIE HEADER ET TITRES*/
+
 .header {
     display: flex;
     width: 1440px;
     height: 79px;
 }
 
-.logoBooki {
-    height: 19px;
-    width: 61px; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.headerlogo {
+    top: 30px;
     position: absolute;
-    left: 30px;
+    width: 90px;
+    height: 30px;
     top: 30px;
 }
 
 .headerMenu {
+
     margin-left: 1100px;
-    display: inline-block;
     text-align: center;
     padding: 30px;
-    font-size: small;
+    font-size: large;
 }
 
 .linkhebergements {
@@ -62,20 +61,21 @@ body {
     color: black;
     border-top: 2px solid blue;
     text-decoration: none;
+    padding: 15px;
 }
 
 .linkactivités {
 
     color: black;
     text-decoration: none;
-    width: 63px;
-    height: 19px;
-    margin-left:50px;
+    margin-left: 15x;
+    padding: 15px;
 }
 
 a:hover {
     color:blue;
     border-top: 2px solid blue;
+
 }
 
 h1 {
@@ -92,6 +92,7 @@ h1 {
     Weight:700;
 
 }
+/* PARTIE FORMULAIRE DE RECHERCHE */
 
 .searchform {
     display:inline-flex;
@@ -144,6 +145,7 @@ h1 {
     padding-right: 16px;
     text-decoration: none;
 }
+/* PARTIE FILTRES DE RECHERCHE */
 
 .filters {
     margin top: 100px;
@@ -205,10 +207,12 @@ h1 {
     color: grey;
     font-size:large;
 }
-/*fin de la partie header et recherches*/
+
+/* ELEMENTS DES CARDS HEBERGEMENTS AND POPULAIRES */
+
 
 .section-title {
-    margin: 0;
+
     font-size: 22px;
     font-size: 22px;
     margin-bottom: 0px;
@@ -223,14 +227,15 @@ h1 {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 
-.card img {
-    object-fit: cover;
 }
 
 .card-title {
     font-size: 16px;
+    margin-top:10px;
+
+    
 }
 
 .euro {
@@ -252,32 +257,61 @@ h1 {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+  
 }
 
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
+
+/* SECTION HEBERGEMENTS */
+
+.hebergements-cards {
+    width: 871px;
+    display: flex;
+    flex-wrap: wrap;  
+    row-gap: 30px;
+    gap:30px;
+    margin-top: 30px;
 }
-.card1 {
-    width: 25%;
+
+.card {
     background-color: white;
-    padding: 2px;
     border-radius: 20px;
-}
-.container-card1 {
-
-  padding: 15px 20px; 
-  box-sizing: border-box;
-  border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    text-decoration: none;
 
 }
-.hotel-du-port {
-    border-radius: 20px;
+
+.card img {
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 250.33px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+
+} 
+.card:hover {
+    box-shadow: 0 16px 16px 0 rgba(46, 49, 50, 0.896);
+
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+nav a:visited {
+    color:#000000;
+}
+nav a:hover {
+    color:#000000;
+}
+nav a:active{
+    color: #000000;
 }
 
 
+/* SECTION POPULAIRES */
 
-/****** Populaires ***********/
 .populaires {
     width: 32%;
 }
