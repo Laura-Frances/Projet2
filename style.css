@@ -9,9 +9,11 @@
     --filter-bg-color: #DEEBFF;
 
 }
+
 .fa-solid {
     color: var(--main-color);
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -112,6 +114,7 @@ h1 {
     color: var(--main-color);
     font-size: x-large;
 }
+
 .headline {
     width: 1340px;
     height: 53px;
@@ -331,7 +334,6 @@ h1 {
 .section-title {
 
     font-size: 22px;
-    font-size: 22px;
     margin-bottom: 0px;
     margin-top: 0px;
     font-weight: bold;
@@ -362,6 +364,8 @@ h1 {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+
+
 }
 
 .hebergements-and-populaires section {
@@ -369,6 +373,8 @@ h1 {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+
+
 
 }
 
@@ -380,8 +386,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     width: 871px;
-    height: 617.5px;
-    padding: 30px;
+    height: 611.5px;
     gap: 30px;
     background: #F2F2F2;
     border-radius: 15px;
@@ -407,7 +412,7 @@ h1 {
     padding: 0px;
     width: 250.33px;
     height: 207.25px;
-    
+
     background: #FFFFFF;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -424,39 +429,29 @@ h1 {
 }
 
 .hebergements-cards .card-content {
-   
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px, 15px, 0px, 15px;
     width: 220.33px;
     height: 64.25px;
-    
-}
-.hebergements-cards .card-txt {
-  margin:0;
-  
-}
-.hebergements-cards .card-title {
 
-    width: 220.33px;
-    height: 19px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+}
+
+.hebergements-cards .card-txt {
+    margin: 0;
+    width: 225px;
+
+}
+
+.hebergements-cards .card-title {
     margin: 0px;
- 
+
 }
 
 .hebergements-cards .card-subtitle {
-
-  
-width: 220.33px;
-height: 16px;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-margin-bottom: 0;
+    margin-bottom: 0;
 
 }
 
@@ -477,12 +472,12 @@ a {
 
 .more {
     width: 811px;
-height: 21px;
+    height: 21px;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 
 
 }
@@ -513,7 +508,7 @@ line-height: 21px;
 }
 
 .populaires-cards .card-content {
-    width: 67%;
+    width: 70%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -535,6 +530,71 @@ line-height: 21px;
 }
 
 
+/*SECTION ACTIVITES A MARSEILLE */
+
+.activities {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    height: 559.02px;
+    padding: 30px;
+
+}
+
+h5 {
+    width: 1280px;
+    height: 30.02px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.activities-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1280px;
+    height: 439px;
+}
+
+.activities-cards .card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+}
+
+.activities-cards img {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activities-cards .card-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    height: 59px;
+
+}
+
+.activities-cards .card-title {
+    width: 259.5px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
