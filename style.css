@@ -306,6 +306,7 @@ h1 {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -414,7 +415,7 @@ a {
 /* SECTION POPULAIRES */
 
 .populaires {
-    width: 32%;
+    min-width: 32%;
 }
 
 .populaires-title {
@@ -502,6 +503,7 @@ h5 {
     border-radius: 20px;
     cursor: default;
     width: 100%;
+    
 }
 
 .activities-cards img {
@@ -509,6 +511,7 @@ h5 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 380px;
+    object-fit: cover;
 
 }
 
