@@ -617,9 +617,6 @@ footer{
     .populaires-cards .card-link {
         flex: 1 1 25%;
     }
-    .hebergements-cards .card {
-        
-    }
 
     .populaires-cards .card-title,
     .hebergements-cards .card-title {
@@ -690,12 +687,14 @@ footer{
         width: 100%;
         padding: 15px;
         border-top: transparent;
-        
     }
 
-    .nav-link:hover {
-        border-top: transparent;
-        border-bottom: 3px solid var(--main-color);
+    /* a.nav-link:active {
+        border-bottom: 2px solid var(--main-color);
+    } */
+
+    .nav-link-selected {
+        border-bottom: 2px solid var(--main-color);
     }
 
     .headline {
