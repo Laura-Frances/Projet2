@@ -76,6 +76,7 @@ body {
 } 
 
 /* SEARCH FORM */
+
 .search-bar {
     color: var(--main-color);
 }
@@ -196,6 +197,7 @@ h1 {
 }
 
 /* FILTERS */
+
 .filters {
     display: flex;
     font-weight: bold;
