@@ -217,7 +217,7 @@ h1 {
 }
 
 .search-filter {
-    display: flex;
+    display: flex; 
     padding: 4px 19px;
     gap: 10px;
     border: 2px solid var(--main-bg-color);
