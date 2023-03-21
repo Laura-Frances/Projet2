@@ -138,8 +138,13 @@
         align-content: center;
     } 
 
+    .nav-link:hover {
+        color: var(--txt-color);
+        border-bottom: 2px solid var(--main-color);
+        border-top: none;
+    }
     /*hover différent sur mobile : pas de souris */
-     .search-filter:active {
+     .search-filter:hover{
         background-color: var(--filter-bg-color);
     }
 
