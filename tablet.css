@@ -67,7 +67,7 @@
     }
 
     .populaires-cards img {
-        width: 50%;
+        max-width: 50%;
     }
 
     .activities-cards {
